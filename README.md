@@ -149,6 +149,9 @@ class UserService{
 
 Outra possiblidade é considerar que a sua classe poderia ter algumas funcionalidades removidas dela. E possivelmente criando outra classe. o objeto da clase Stripe (Boleto). Poderia esta incluido em outra controller como 'AuthController' que teriam metodos referentes a cancelar e criar uma conta, contendo nele a dependencia do boleto.
 
+
+As classes Mailer e Logger, poderiam ser manipuladas atraves de listeners
+
 ## Wrap Primitives
 
 Com cuidado, deve ser verificar se um tipo primitivo pode ter uma classe criada para ele baseado nos seguintes fatores: (Obedecer a todos)
